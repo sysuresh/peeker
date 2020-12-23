@@ -1,3 +1,4 @@
-# peeker
 
-Autonomous drone that hides from the user.
+# Peeker
+
+Autonomous drone that hides from the users field of vision.
