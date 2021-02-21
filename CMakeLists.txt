@@ -11,7 +11,7 @@ set(CMAKE_CURRENT_SOURCE_DIR "/root/tello")
 
 option(SIMPLE "Use simple formatting for all output to terminal" OFF)
 option(USE_JOYSTICK "Use a joystick/controller to control the drone manually" OFF)
-option(RECORD "Record tello video feed" OFF)
+option(RECORD "Record tello video feed" ON)
 option(RUN_SLAM "Run SLAM in real time" OFF)
 option(USE_TERMINAL "Run with terminal for CLI" OFF)
 option(USE_CONFIG "Use configuration file to set up tello(s)" OFF)

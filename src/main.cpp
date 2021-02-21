@@ -32,9 +32,9 @@ int main(){
     t.cs->addCommandToQueue("streamon");
     t.cs->addCommandToQueue("takeoff");
     t.cs->executeQueue();
-    t.cs->addCommandToQueue("forward 20");
-    t.cs->addCommandToQueue("back 20");
-    t.cs->addCommandToQueue("delay 5");
+    //t.cs->addCommandToQueue("forward 20");
+    //t.cs->addCommandToQueue("back 20");
+    t.cs->addCommandToQueue("delay 1");
     t.cs->addCommandToFrontOfQueue("stop");
     // t.cs->stopQueueExecution();
     t.cs->doNotAutoLand();
@@ -53,9 +53,9 @@ int main(){
   t.cs->addCommandToQueue("streamon");
   t.cs->addCommandToQueue("takeoff");
   t.cs->executeQueue();
-  t.cs->addCommandToQueue("forward 20");
-  t.cs->addCommandToQueue("back 20");
-  t.cs->addCommandToQueue("delay 5");
+  //t.cs->addCommandToQueue("forward 20");
+  //t.cs->addCommandToQueue("back 20");
+  t.cs->addCommandToQueue("delay 1");
   t.cs->addCommandToFrontOfQueue("stop");
   // t.cs->stopQueueExecution();
   t.cs->doNotAutoLand();
